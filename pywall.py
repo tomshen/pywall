@@ -18,7 +18,7 @@ def main():
                 print('Saving ' + image_url + ' to ' + image_filepath)
                 request.urlretrieve(image_url, image_filepath)
     else:
-        print 'Feed currently not supported.'
+        print('Feed currently not supported.')
 
 if __name__ == "__main__":
     main()
